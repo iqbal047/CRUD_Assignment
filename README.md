@@ -3,12 +3,14 @@
  CREATE a sample project and implement below features
  
 1.Create a page where there will be login and logout functionality with database authentication.
+
 2. Suppose you have a table in the database called the employeeTable, There are some fields in that table named
 employeeld(Type-Int), employeeName(Type- String), Address(Type-String),
 mobileNo(Type-String), age (Type-Int), Salary(Type-Float).
 Now you need to create a page where create, read/view, update, and delete (CRUD) functionality
 can be done on the employeeTable.
-3. Download Employee List in CSV file from DB.
+
+4. Download Employee List in CSV file from DB.
 
 
 # CRUD_Assignment
