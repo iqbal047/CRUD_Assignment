@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <span>Employees App</span>
+  <div class="nav-link-container">
+    <a routerLink="emp-form" class="nav-link">Add New Employee</a>
+    <a routerLink="emp-list" class="nav-link">Employee List</a>
+    
+  </div>
+  <span class="spacer"></span>
+  <button mat-icon-button (click)="logout()" title="Logout">
+    <mat-icon>exit_to_app</mat-icon>
+  </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
